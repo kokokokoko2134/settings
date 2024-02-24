@@ -1,0 +1,14 @@
+[user]
+	email = kokokokoko@example.com
+	name = kokokokoko
+[core]
+	editor = vim
+[alias]
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    who = shortlog -s --
